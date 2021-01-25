@@ -12,7 +12,9 @@
 ~H
 # 명령 행 히스토리 (새것부터 오래된 것 순):
 :wq
-|2,0,1611558232,,"wq"
+|2,0,1611565580,,"wq"
+:q
+|2,0,1611565142,,"q"
 
 # 찾을 문자열 히스토리 (새것부터 오래된 것 순):
 
@@ -25,20 +27,136 @@
 # 레지스터:
 
 # 파일 마크:
-'0  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
-|4,48,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
-'1  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
-|4,49,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
-'2  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
-|4,50,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
-'3  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
-|4,51,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+'0  29  30  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,48,29,30,1611565580,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+'1  29  30  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,49,29,30,1611565166,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+'2  29  31  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,50,29,31,1611565142,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+'3  29  31  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,51,29,31,1611565142,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+'4  1  0  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,52,1,0,1611563440,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+'5  1  0  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,53,1,0,1611563440,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+'6  1  0  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,54,1,0,1611563440,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+'7  1  0  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,55,1,0,1611563440,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+'8  1  0  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,56,1,0,1611563440,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+'9  1  0  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,57,1,0,1611563440,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
 
 # 점프목록 (새것이 먼저):
+-'  29  30  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,39,29,30,1611565580,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+-'  29  30  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,39,29,30,1611565166,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+-'  29  31  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,39,29,31,1611565142,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,39,1,0,1611565121,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,39,1,0,1611565121,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,39,1,0,1611565121,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+|4,39,1,0,1611563440,"~/prometheus-2.24.1.linux-amd64/prometheus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
 -'  19  32  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
 |4,39,19,32,1611558232,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
 -'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
 |4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611558107,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
 -'  19  34  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
 |4,39,19,34,1611555995,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
 -'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
@@ -47,8 +165,99 @@
 |4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
 -'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
 |4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
+-'  1  0  ~/prometheus-2.24.1.linux-amd64/promehteus.yml
+|4,39,1,0,1611555989,"~/prometheus-2.24.1.linux-amd64/promehteus.yml"
 
 # 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/prometheus-2.24.1.linux-amd64/prometheus.yml
+	*	1611565413	0
+	"	29	30
+	^	29	31
+	.	29	30
+	+	29	30
 
 > ~/prometheus-2.24.1.linux-amd64/promehteus.yml
 	*	1611558231	0
