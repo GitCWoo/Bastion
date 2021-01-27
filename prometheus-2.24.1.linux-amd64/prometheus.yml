@@ -30,6 +30,10 @@ scrape_configs:
 
   - job_name: 'WEB'
     static_configs:
-            - targets: ['13.124.111.234:9100']
+            - targets: ['13.124.111.234:9101']
+              
+  - job_name: 'WAS'
+    static_configs:
+            - targets: ['13.124.111.234:9102']
  
 

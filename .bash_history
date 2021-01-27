@@ -458,3 +458,282 @@ iptables -nL
 cd prometheus-*
 vim prometheus.yml
 ./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+ps -ef | grep pro
+netstat -an | grep 9000
+netstat -an | grep 9100
+netstat -an | grep 80
+find / -name target
+cd prometheus-*
+ls -ltr
+cd console
+cd consoles
+ls -ltr
+cd ./.
+cd ..
+ls
+vim prometheus.yml
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+ps ef | grep pro
+ps -ef | grep pro
+kill 4949
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+vi promehteus.yml
+vi prometheus.yml
+ps -ef | grep node
+curl localhost:9100/metrics
+curl localhost:9101/metrics
+vi prometheus.yml
+ps -ef | grep pro
+kill -9 6759
+ps -ef | grep pro
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+vi prometheus.yml
+kill -9 7645
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+ps -ef | grep pro
+vi prometheus.yml
+kill -9 7673
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+curl http://13.124.111.234:9100/metrics
+curl 13.124.111.234:9100/metrics
+telnet 13.124.111.234 9100
+ifconfig
+curl 10.0.2.55:9100/metrics
+vi prometheus.yml
+netstat -an 
+vi prometheus.yml
+ps -ef | grep pro
+kill -9 7715
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+kill -9 8140
+vi prometheus.yml
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+curl 13.124.111.234:9100/metrics
+vi prometheus.yml
+kill -9 8176
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+ps -ef | grep pro
+vi prometheus.yml
+kil -9 8290
+kill -9 8290
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+telnet 10.0.13.59 9100
+curl 13.124.111.234:9090
+curl 13.124.111.234:9090/targets
+curl 13.124.111.234:9100
+curl localhost:9100
+curl localhost:9100/metrics
+curl  13.124.111.234:9100/metrics
+iptables -nL
+cd /etc/rc.d/init.d
+ls -ltr
+vi iptables-portforward.txt 
+history | grep iptables
+history | grep 9100
+history
+iptalbes -nL
+iptables -nL
+cd
+iptables -D INPUT 4
+iptables -L --line-numbers
+iptables -D INPUT 4
+iptables -D OUTPUT 4 -t nat
+iptables --policy INPUT   ACCEPT
+iptables --policy OUTPUT  ACCEPT
+iptables --policy FORWARD ACCEPT
+iptables -Z # zero counters
+iptables -F # flush (delete) rules
+iptables -X # delete all extra chains
+iptables -t nat -F
+iptables -t nat -X
+iptables -t mangle -F
+iptables -t mangle -X
+iptables -nL
+iptables -t nat -A PREROUTING -p TCP --dport 2205 -j DNAT --to-destination 10.0.13.59:22
+iptables -t nat -A PREROUTING -p TCP --dport 2206 -j DNAT --to-destination 10.0.14.59:22
+iptables -A FORWARD -p tcp --dport 2205 -d 10.0.13.59 -j ACCEPT 
+iptables -A FORWARD -p tcp --dport 2206 -d 10.0.14.59 -j ACCEPT 
+cd /etc/rc.d/init.d
+iptables-save > iptables-portforward.txt
+cd
+iptables -nL
+iptables -L FORWARD
+iptables -nL
+iptables -t nat -A PREROUTING -p TCP --dport 2205 -j DNAT --to-destination 10.0.13.59:9100
+iptables -A FORWARD -p tcp --dport 2205 -d 10.0.13.59 -j ACCEPT
+history
+ps -ef | grep pro
+kill 8498
+ps -ef | grep pro
+cd prometheus-*
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+vim prometheus.yml
+ps -ef | grep prome
+kill 11597
+ps -ef | grep prome
+kill -9 11597
+ps -ef | grep prome
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+vim prometheus.yml
+ps -ef | grep pro
+kill 9 11838
+ps -ef | grep pro
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+ls
+vim prometheus.yml
+cd
+git add .
+git commit -m "monitoring"
+git push origin master
+history
+hostname -I
+iptables -nL
+cd prometheus-*
+vi prometheus.yml
+vim prometheus.yml
+cd
+cd /etc/rc.d/init.d
+cat iptables-portforward.txt
+iptables-save > iptables-portforward.txt
+cat iptables-portforward.txt
+cd
+iptables -t nat -A PREROUTING -p TCP --dport 9101 -j DNAT --to-destination 10.0.13.59:9100
+iptables -A FORWARD -p tcp --dport 9101 -d 10.0.13.59 -j ACCEPT
+cd prometheus-*
+vim prometheus.yml
+cd
+iptables --policy INPUT   ACCEPT
+iptables --policy OUTPUT  ACCEPT
+iptables --policy FORWARD ACCEPT
+iptables -Z # zero counters
+iptables -F # flush (delete) rules
+iptables -X # delete all extra chains
+iptables -t nat -F
+iptables -t nat -X
+iptables -t mangle -F
+iptables -t mangle -X
+iptables -t nat -A PREROUTING -p TCP --dport 2205 -j DNAT --to-destination 10.0.13.59:22 
+iptables -t nat -A PREROUTING -p TCP --dport 2206 -j DNAT --to-destination 10.0.14.59:22 
+iptables -A FORWARD -p tcp --dport 2205 -d 10.0.13.59 -j ACCEPT 
+iptables -A FORWARD -p tcp --dport 2206 -d 10.0.14.59 -j ACCEPT 
+iptables -t nat -A PREROUTING -p TCP --dport 9101 -j DNAT --to-destination 10.0.13.59:9100 
+iptables -A FORWARD -p tcp --dport 9101 -d 10.0.13.59 -j ACCEPT 
+iptables -nL
+cd /etc/rc.d/init.d
+iptables-save > iptables-portforward.txt
+cat  iptables-portforward.txt
+ls -ltr
+ls
+iptables -nL
+cd
+cd prometheus-*
+vim prometheus.yml
+iptables --policy INPUT   ACCEPT
+iptables --policy OUTPUT  ACCEPT
+iptables --policy FORWARD ACCEPT
+iptables -Z # zero counters
+iptables -F # flush (delete) rules
+iptables -X # delete all extra chains
+iptables -t nat -F
+iptables -t nat -X
+iptables -t mangle -F
+iptables -t mangle -x
+cd
+iptables --policy INPUT   ACCEPT
+iptables --policy OUTPUT  ACCEPT
+iptables --policy FORWARD ACCEPT
+iptables -Z # zero counters
+iptables -F # flush (delete) rules
+iptables -X # delete all extra chains
+iptables -t nat -F
+iptables -t nat -X
+iptables -t mangle -F
+iptables -t mangle -X
+iptables -nL
+cd /etc/rc.d/init.d
+ls
+rm iptables-portforward.txt
+cat iptables-portforward.txt\
+cat iptables-portforward.txt
+iptables -nL
+cd
+iptables -t nat -A PREROUTING -p TCP --dport 2205 -j DNAT --to-destination 10.0.13.59:22 
+iptables -t nat -A PREROUTING -p TCP --dport 2206 -j DNAT --to-destination 10.0.14.59:22 
+iptables -A FORWARD -p tcp --dport 2205 -d 10.0.13.59 -j ACCEPT
+iptables -A FORWARD -p tcp --dport 2206 -d 10.0.14.59 -j ACCEPT
+cd /etc/rc.d/init.d
+iptables-save > iptables-portforward.txt
+systmectl restart sshd
+systemctl restart sshd
+iptables -nL
+iptables -t nat -A PREROUTING -p TCP --dport 2205 -j DNAT --to-destination 10.0.13.59:22
+iptables -t nat -A PREROUTING -p TCP --dport 2206 -j DNAT --to-destination 10.0.14.59:22
+iptables -A FORWARD -p tcp --dport 2205 -d 10.0.13.59 -j ACCEPT
+iptables -A FORWARD -p tcp --dport 2206 -d 10.0.14.59 -j ACCEPT
+cd /etc/rc.d/init.d
+iptables-save > iptables-portforward.txt
+ls -ltr
+cat iptables-portforward.txt
+ls
+rm iptables-portforward.txt
+iptables-save > iptables-portforward.txt
+cat iptables-portforward.txt
+ls -ltr
+chmod 774 iptables-portforward.txt
+ls -ltr
+cat iptables-portforward.txt
+ls -ltr
+cd
+vi /etc/sysctl.conf 
+echo 1 > /proc/sys/net/ipv4/ip_forward
+cd /etc/rc.d/init.d
+vi iptables-default 
+cd /etc/rc3.d 
+ls
+rm iptables-protforward.txt
+rm S85iptables-default
+“ ln -s /etc/rc.d/init.d/iptables-default S85iptables-default 
+ ln -s /etc/rc.d/init.d/iptables-default S85iptables-default 
+cd /etc/rc.d/init.d
+ls
+cat iptables-portforward.txt
+cd
+iptables -t nat -A POSTROUTING -j MASQUERADE 
+iptalbes -nL
+iptables -nL
+cd prometheus-*
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+vim prometheus.yml
+curl localhost:9100/metrics 
+cd
+ iptables -t nat -A PREROUTING -p TCP --dport 9101 -j DNAT --to-destination 10.0.13.59:9100
+iptables -A FORWARD -p tcp --dport 9101 -d 10.0.13.59 -j ACCEPT
+iptables -t nat -A PREROUTING -p TCP --dport 9102 -j DNAT --to-destination 10.0.14.59:9100
+iptables -A FORWARD -p tcp --dport 9102 -d 10.0.14.59 -j ACCEPT
+cd /etc/rc.d/init.d
+iptables-save > iptables-portforward.txt
+cd prometheus-*
+cd
+cd prometheus-*
+vim prometheus.yml
+ps -ef | grep pro
+kill 3591
+ps -ef | grep pro
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+iptables -nL
+ps -ef | grep pro
+kill 3618
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+vim prometheus.yml
+ps -ef | grep pro
+kill 3684
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+vim prometheus.yml
+ps -ef | grep pro
+kill 3696
+./prometheus --config.file=prometheus.yml > /dev/null 2>&1 &
+vim prometheus.yml
+ps -ef | grep pr
+kill 3224
